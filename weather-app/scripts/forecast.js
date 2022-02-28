@@ -1,0 +1,1 @@
+// All of the JS that are responsible for interacting with the weather API and getting data.
