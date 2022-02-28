@@ -1,0 +1,1056 @@
+[
+  {
+    "Version": 1,
+    "Key": "349727",
+    "Type": "City",
+    "Rank": 15,
+    "LocalizedName": "New York",
+    "EnglishName": "New York",
+    "PrimaryPostalCode": "10007",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "NY",
+      "LocalizedName": "New York",
+      "EnglishName": "New York",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "EST",
+      "Name": "America/New_York",
+      "GmtOffset": -5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2022-03-13T07:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 40.779,
+      "Longitude": -73.969,
+      "Elevation": {
+        "Metric": {
+          "Value": 8,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 26,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "New York",
+        "EnglishName": "New York"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "334370",
+    "Type": "City",
+    "Rank": 75,
+    "LocalizedName": "York",
+    "EnglishName": "York",
+    "PrimaryPostalCode": "68467",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "NE",
+      "LocalizedName": "Nebraska",
+      "EnglishName": "Nebraska",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Chicago",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2022-03-13T08:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 40.868,
+      "Longitude": -97.592,
+      "Elevation": {
+        "Metric": {
+          "Value": 498,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 1633,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "York",
+        "EnglishName": "York"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "1-2527408_1_AL",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Newyork",
+    "EnglishName": "Dalavich",
+    "PrimaryPostalCode": "PA35 1",
+    "Region": {
+      "ID": "EUR",
+      "LocalizedName": "Europe",
+      "EnglishName": "Europe"
+    },
+    "Country": {
+      "ID": "GB",
+      "LocalizedName": "United Kingdom",
+      "EnglishName": "United Kingdom"
+    },
+    "AdministrativeArea": {
+      "ID": "AGB",
+      "LocalizedName": "Argyll and Bute",
+      "EnglishName": "Argyll and Bute",
+      "Level": 1,
+      "LocalizedType": "Unitary Authority",
+      "EnglishType": "Unitary Authority",
+      "CountryID": "GB"
+    },
+    "TimeZone": {
+      "Code": "GMT",
+      "Name": "Europe/London",
+      "GmtOffset": 0,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2022-03-27T01:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 56.263,
+      "Longitude": -5.283,
+      "Elevation": {
+        "Metric": {
+          "Value": 79,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 259,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": true,
+    "ParentCity": {
+      "Key": "2527408",
+      "LocalizedName": "Dalavich",
+      "EnglishName": "Dalavich"
+    },
+    "SupplementalAdminAreas": [
+      {
+        "Level": 0,
+        "LocalizedName": "Scotland",
+        "EnglishName": "Scotland"
+      },
+      {
+        "Level": 3,
+        "LocalizedName": "Oban North and Lorn",
+        "EnglishName": "Oban North and Lorn"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "710949",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "New York",
+    "EnglishName": "New York",
+    "PrimaryPostalCode": "LN4 4",
+    "Region": {
+      "ID": "EUR",
+      "LocalizedName": "Europe",
+      "EnglishName": "Europe"
+    },
+    "Country": {
+      "ID": "GB",
+      "LocalizedName": "United Kingdom",
+      "EnglishName": "United Kingdom"
+    },
+    "AdministrativeArea": {
+      "ID": "LIN",
+      "LocalizedName": "Lincolnshire",
+      "EnglishName": "Lincolnshire",
+      "Level": 1,
+      "LocalizedType": "Non-Metropolitan County",
+      "EnglishType": "Non-Metropolitan County",
+      "CountryID": "GB"
+    },
+    "TimeZone": {
+      "Code": "GMT",
+      "Name": "Europe/London",
+      "GmtOffset": 0,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2022-03-27T01:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 53.078,
+      "Longitude": -0.137,
+      "Elevation": {
+        "Metric": {
+          "Value": 20,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 65,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 0,
+        "LocalizedName": "England",
+        "EnglishName": "England"
+      },
+      {
+        "Level": 2,
+        "LocalizedName": "East Lindsey",
+        "EnglishName": "East Lindsey"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "2126946",
+    "Type": "City",
+    "Rank": 285,
+    "LocalizedName": "New York Township",
+    "EnglishName": "New York Township",
+    "PrimaryPostalCode": "64637",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "MO",
+      "LocalizedName": "Missouri",
+      "EnglishName": "Missouri",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Chicago",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2022-03-13T08:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 39.656,
+      "Longitude": -93.927,
+      "Elevation": {
+        "Metric": {
+          "Value": 255,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 836,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Caldwell",
+        "EnglishName": "Caldwell"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "2232442",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "Eagle Creek",
+    "EnglishName": "Eagle Creek",
+    "PrimaryPostalCode": "36853",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "AL",
+      "LocalizedName": "Alabama",
+      "EnglishName": "Alabama",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Chicago",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2022-03-13T08:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 32.94,
+      "Longitude": -85.751,
+      "Elevation": {
+        "Metric": {
+          "Value": 217,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 711,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Tallapoosa",
+        "EnglishName": "Tallapoosa"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "2245721",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "New York",
+    "EnglishName": "New York",
+    "PrimaryPostalCode": "32565",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "FL",
+      "LocalizedName": "Florida",
+      "EnglishName": "Florida",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Chicago",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2022-03-13T08:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 30.839,
+      "Longitude": -87.201,
+      "Elevation": {
+        "Metric": {
+          "Value": 62,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 203,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Santa Rosa",
+        "EnglishName": "Santa Rosa"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "2213492",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "New York",
+    "EnglishName": "New York",
+    "PrimaryPostalCode": "50060",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "IA",
+      "LocalizedName": "Iowa",
+      "EnglishName": "Iowa",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Chicago",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2022-03-13T08:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 40.852,
+      "Longitude": -93.26,
+      "Elevation": {
+        "Metric": {
+          "Value": 321,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 1052,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Wayne",
+        "EnglishName": "Wayne"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "2179646",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "New York",
+    "EnglishName": "New York",
+    "PrimaryPostalCode": "42087",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "KY",
+      "LocalizedName": "Kentucky",
+      "EnglishName": "Kentucky",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Chicago",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2022-03-13T08:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 36.989,
+      "Longitude": -88.953,
+      "Elevation": {
+        "Metric": {
+          "Value": 139,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 455,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Ballard",
+        "EnglishName": "Ballard"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "2209814",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "York",
+    "EnglishName": "York",
+    "PrimaryPostalCode": "59602",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "MT",
+      "LocalizedName": "Montana",
+      "EnglishName": "Montana",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "MST",
+      "Name": "America/Denver",
+      "GmtOffset": -7,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2022-03-13T09:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 46.722,
+      "Longitude": -111.752,
+      "Elevation": {
+        "Metric": {
+          "Value": 1294,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 4247,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Lewis and Clark",
+        "EnglishName": "Lewis and Clark"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "2212053",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "New York",
+    "EnglishName": "New York",
+    "PrimaryPostalCode": "87007",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "NM",
+      "LocalizedName": "New Mexico",
+      "EnglishName": "New Mexico",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "MST",
+      "Name": "America/Denver",
+      "GmtOffset": -7,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2022-03-13T09:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 35.059,
+      "Longitude": -107.527,
+      "Elevation": {
+        "Metric": {
+          "Value": 1976,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 6484,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Cibola",
+        "EnglishName": "Cibola"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "2086634",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "Seal",
+    "EnglishName": "Seal",
+    "PrimaryPostalCode": "44849",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "OH",
+      "LocalizedName": "Ohio",
+      "EnglishName": "Ohio",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "EST",
+      "Name": "America/New_York",
+      "GmtOffset": -5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2022-03-13T07:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 40.877,
+      "Longitude": -83.15,
+      "Elevation": {
+        "Metric": {
+          "Value": 274,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 898,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Wyandot",
+        "EnglishName": "Wyandot"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "2125351",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "Scotts Mill",
+    "EnglishName": "Scotts Mill",
+    "PrimaryPostalCode": "38474",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "TN",
+      "LocalizedName": "Tennessee",
+      "EnglishName": "Tennessee",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Chicago",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2022-03-13T08:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 35.5,
+      "Longitude": -87.148,
+      "Elevation": {
+        "Metric": {
+          "Value": 216,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 708,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Maury",
+        "EnglishName": "Maury"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "2185062",
+    "Type": "City",
+    "Rank": 385,
+    "LocalizedName": "New York",
+    "EnglishName": "New York",
+    "PrimaryPostalCode": "75770",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "TX",
+      "LocalizedName": "Texas",
+      "EnglishName": "Texas",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Chicago",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": "2022-03-13T08:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 32.168,
+      "Longitude": -95.669,
+      "Elevation": {
+        "Metric": {
+          "Value": 128,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 419,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Henderson",
+        "EnglishName": "Henderson"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "1171811",
+    "Type": "City",
+    "Rank": 600,
+    "LocalizedName": "Nueva York",
+    "EnglishName": "Nueva York",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "CAC",
+      "LocalizedName": "Central America",
+      "EnglishName": "Central America"
+    },
+    "Country": {
+      "ID": "HN",
+      "LocalizedName": "Honduras",
+      "EnglishName": "Honduras"
+    },
+    "AdministrativeArea": {
+      "ID": "LE",
+      "LocalizedName": "Lempira",
+      "EnglishName": "Lempira",
+      "Level": 1,
+      "LocalizedType": "Department",
+      "EnglishType": "Department",
+      "CountryID": "HN"
+    },
+    "TimeZone": {
+      "Code": "CST",
+      "Name": "America/Tegucigalpa",
+      "GmtOffset": -6,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 14.8,
+      "Longitude": -88.367,
+      "Elevation": {
+        "Metric": {
+          "Value": 1394,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 4575,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  }
+]
