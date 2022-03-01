@@ -1,5 +1,7 @@
 // All of our kind of DOM manipulations showing things on the page
 
+document.querySelector("form label");
+
 const form = document.querySelector("form");
 const card = document.querySelector(".card");
 const info = document.querySelector(".info");
@@ -13,10 +15,11 @@ const updateUI = (data) => {
   const { cityData, weather } = data;
   console.log(data);
 
-  info.innerHTML = `<h5>${cityData.EnglishName}</h5>
+  info.innerHTML =
+    `<h5>${cityData.EnglishName}</h5>
                 <div>${weather[0].WeatherText}</div>
-                <div>
-                    <span>${weather[0].Temperature.Metric.Value}</span><span>&degC / </span>
+                <div>`.toUpperCase() +
+    `<span>${weather[0].Temperature.Metric.Value}</span><span>&degC / </span>
                     <span>${weather[0].Temperature.Imperial.Value}</span><span>&degF</span>
                 </div>`;
 
@@ -66,5 +69,7 @@ form.addEventListener("submit", (e) => {
     })
     .catch((err) => {
       console.log(err);
+      if()
+      alert("There is not the location");
     });
 });

@@ -13,25 +13,33 @@
 
     <title>S.LO.Weather</title>
   </head>
+
   <body>
     <div class="container">
-      <h1>S.LO.Weather</h1>
+      <h1>S.Lo.Weather</h1>
 
       <form>
-        <label for="city">ENTER YOUR LOCATION, GET THE WEATHER</label>
-        <input type="text" name="city" />
+        <input
+          type="text"
+          name="city"
+          placeholder="----------------Enter Location For Weather Information----------------"
+        />
       </form>
 
-      <div class="card d-none">
-        <img class="time" src="https://via.placeholder.com/400x300" alt="" />
+      <div class="card d-none flex radius">
+        <img
+          class="time radius flex"
+          src="https://via.placeholder.com/400x300"
+          alt=""
+        />
         <div class="icon">
           <!-- icon -->
           <img src="" alt="" />
         </div>
-        <div class="info">
+        <div class="info flex">
           <h5>CITY NAME</h5>
           <div>WEATHER CONDITIONS</div>
-          <div>
+          <div class="tempSize">
             <span>TEMP</span><span>&degC</span> <span>TEMP</span
             ><span>&degF</span>
           </div>
