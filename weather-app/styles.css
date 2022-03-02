@@ -2,14 +2,20 @@ body {
   letter-spacing: 0.2em;
   font-size: 0.8em;
   background-color: #e6ecf6;
+  background-image: url(./original.jpg);
+  background-size: cover;
+  background-position: center;
   text-align: center;
 }
 h1 {
   font-weight: 400;
+  color: rgb(240, 228, 228);
 }
 input {
   border-radius: 15px;
+  border: none;
   width: 390px;
+  background-color: rgb(235, 232, 232);
 }
 .container {
   width: 400px;
@@ -29,7 +35,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 5px 5px 15px rgb(192, 186, 168);
+  box-shadow: 2px 7px 10px rgb(133, 127, 109);
   border-radius: 0 0 20px 20px;
 }
 .d-none {
