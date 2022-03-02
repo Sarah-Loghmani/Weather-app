@@ -69,7 +69,6 @@ form.addEventListener("submit", (e) => {
     })
     .catch((err) => {
       console.log(err);
-      if()
       alert("There is not the location");
     });
 });
