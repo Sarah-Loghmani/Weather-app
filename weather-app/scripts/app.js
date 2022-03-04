@@ -1,12 +1,11 @@
 // All of our kind of DOM manipulations showing things on the page
 
-document.querySelector("form label");
-
 const form = document.querySelector("form");
 const card = document.querySelector(".card");
 const info = document.querySelector(".info");
 const timeImage = document.querySelector("img.time");
 const icon = document.querySelector(".icon img");
+const forecast = new Forecast();
 
 const updateUI = (data) => {
   //   const cityData = data.cityData;
@@ -27,13 +26,14 @@ const updateUI = (data) => {
   const iconSrc = `icons/${weather[0].WeatherIcon}.svg`;
   icon.setAttribute("src", iconSrc);
 
-  let timeImageSrc = null;
-
-  if (weather[0].IsDayTime) {
-    timeImageSrc = "icons/day.svg";
-  } else {
-    timeImageSrc = "icons/night.svg";
-  }
+  // let timeImageSrc = null;
+  // if (weather[0].IsDayTime) {
+  //   timeImageSrc = "icons/day.svg";
+  // } else {
+  //   timeImageSrc = "icons/night.svg";
+  // }
+  // *ternary operator
+  let timeImageSrc = weather[0].IsDayTime ? "icons/day.svg" : "icons/night.svg";
 
   timeImage.setAttribute("src", timeImageSrc);
 
@@ -42,17 +42,6 @@ const updateUI = (data) => {
     card.classList.remove("d-none");
   }
 };
-
-async function updateCity(city) {
-  const cityData = await getCity(city);
-  const weather = await getWeather(cityData.Key);
-  // return {
-  //     cityData: cityData,
-  //     weather: weather
-  // }
-  //object shorthand notation
-  return { cityData, weather };
-}
 
 form.addEventListener("submit", (e) => {
   //prevent default action
@@ -63,10 +52,9 @@ form.addEventListener("submit", (e) => {
   // console.log(city);
   form.reset();
 
-  updateCity(city)
-    .then((data) => {
-      updateUI(data);
-    })
+  forecast
+    .updateCity(city)
+    .then((data) => updateUI(data))
     .catch((err) => {
       console.log(err);
       alert("There is not the location");
