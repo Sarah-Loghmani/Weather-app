@@ -2,7 +2,7 @@
 
 class Forecast {
   constructor() {
-    this.apiKey = "ade7iUcaCwyuxrbfbVxEipS6G324iYSi";
+    this.apiKey = "	0jolFjaAKCjb63GOorNrpVdZLOFtvl1f";
     this.weatherURI =
       "http://dataservice.accuweather.com/currentconditions/v1/";
     this.cityURI =
@@ -20,6 +20,7 @@ class Forecast {
     const query = `?apikey=${this.apiKey}&q=${city}`;
     const request = await fetch(this.cityURI + query);
     const data = await request.json();
+    console.log(data);
     return data[0];
   }
   // get the weather information
