@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>S.LO.Weather</title>
+  </head>
+
+  <body>
+    <!-- <img src="./landscape.jfif" alt="" /> -->
+    <div class="container">
+      <h1>S.Lo.Weather</h1>
+
+      <form>
+        <input
+          type="text"
+          name="city"
+          placeholder="----------------Enter Location For Weather Information----------------"
+        />
+      </form>
+
+      <div class="card d-none flex radius">
+        <img
+          class="time radius flex"
+          src="https://via.placeholder.com/400x300"
+          alt=""
+        />
+        <div class="icon">
+          <!-- icon -->
+          <img src="" alt="" />
+        </div>
+        <div class="info flex">
+          <h5>CITY NAME</h5>
+          <div>WEATHER CONDITIONS</div>
+          <div class="tempSize">
+            <span>TEMP</span><span>&degC</span> <span>TEMP</span
+            ><span>&degF</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/forecast.js"></script>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
