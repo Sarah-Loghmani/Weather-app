@@ -1,4 +1,5 @@
 // All of our kind of DOM manipulations showing things on the page
+alert("If you are in Iran, Please turn on your VPN : )");
 
 const form = document.querySelector("form");
 const card = document.querySelector(".card");
