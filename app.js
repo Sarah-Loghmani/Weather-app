@@ -6,57 +6,59 @@ const card = document.querySelector(".card");
 const info = document.querySelector(".info");
 const timeImage = document.querySelector("img.time");
 const icon = document.querySelector(".icon img");
-// const forecast = new Forecast(city);
+const forecast = new Forecast();
 
-// const updateUI = (data) => {
-//   //   const cityData = data.cityData;
-//   //   const weather = data.weather;
-//   //destructure properties
-//   const { cityData, weather } = data;
-//   console.log(data);
+const updateUI = (data) => {
+  //   const cityData = data.cityData;
+  //   const weather = data.weather;
+  //destructure properties
+  const { city, weather, temp, iconNum } = data;
+  console.log(data);
 
-//   info.innerHTML =
-//     `<h5>${cityData.EnglishName}</h5>
-//                 <div>${weather[0].WeatherText}</div>
-//                 <div>`.toUpperCase() +
-//     `<span>${weather[0].Temperature.Metric.Value}</span><span>&degC / </span>
-//                     <span>${weather[0].Temperature.Imperial.Value}</span><span>&degF</span>
-//                 </div>`;
+  info.innerHTML =
+    `<h5>${city}</h5>
+                <div>${weather}</div>
+                <div>`.toUpperCase() +
+    `<span>${temp}</span><span>&degC / </span>
+                    <span>${temp}</span><span>&degF</span>
+                </div>`;
 
-//   //update the day/night & icon images
-//   const iconSrc = `icons/${weather[0].WeatherIcon}.svg`;
-//   icon.setAttribute("src", iconSrc);
+  //update the day/night & icon images
+  console.log(iconNum);
+  const iconSrc = `icons/0/${iconNum}.svg`;
+  icon.setAttribute("src", iconSrc);
 
-//   // let timeImageSrc = null;
-//   // if (weather[0].IsDayTime) {
-//   //   timeImageSrc = "icons/day.svg";
-//   // } else {
-//   //   timeImageSrc = "icons/night.svg";
-//   // }
-//   // *ternary operator
-//   let timeImageSrc = weather[0].IsDayTime ? "icons/day.svg" : "icons/night.svg";
+  // let timeImageSrc = null;
+  // if (weather[0].IsDayTime) {
+  //   timeImageSrc = "icons/day.svg";
+  // } else {
+  //   timeImageSrc = "icons/night.svg";
+  // }
+  // *ternary operator----------->
+  let timeImageSrc = weather[0].IsDayTime ? "icons/day.svg" : "icons/night.svg";
 
-//   timeImage.setAttribute("src", timeImageSrc);
+  timeImage.setAttribute("src", timeImageSrc);
 
-//   //refreshing
-//   if (card.classList.contains("d-none")) {
-//     card.classList.remove("d-none");
-//   }
-// };
+  //refreshing----------->
+  if (card.classList.contains("d-none")) {
+    card.classList.remove("d-none");
+  }
+};
 
+//add event listener----------->
 form.addEventListener("submit", (e) => {
   //prevent default action
   e.preventDefault();
   //   console.dir(form);
   // get city value
   const city = form.city.value.trim();
-  const forecast = new Forecast(city);
+  // const forecast = new Forecast(city);
   // console.log(city);
   form.reset();
 
   forecast
-    .getData()
-    .then((data) => console.log("runnnnn"))
+    .getInfo(city)
+    .then((info) => updateUI(info))
     .catch((err) => {
       console.log(err);
     });
