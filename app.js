@@ -1,3 +1,23 @@
+// All of the JS that are responsible for interacting with the weather API and getting data.
+
+class Forecast {
+  constructor() {
+    this.appid = "6c8b4e1ce36d42ec1524f341258ee514";
+    this.url = `https://api.openweathermap.org/data/2.5/weather?`;
+  }
+  // get city & weather
+  async getInfo(city) {
+    const query = `q=${city}&appid=${this.appid}`;
+    const response = await axios.get(this.url + query);
+    const data = response.data;
+    console.log(data);
+    const weather = data.weather[0].description;
+    const temp = data.main.temp;
+    const iconNum = data.weather[0].icon;
+    return { temp, city, weather, iconNum }; //object shorthand notation
+  }
+}
+
 // All of our kind of DOM manipulations showing things on the page
 // alert("If you are in Iran, Please turn on your VPN : )");
 
@@ -35,7 +55,9 @@ const updateUI = (data) => {
   //   timeImageSrc = "icons/night.svg";
   // }
   // *ternary operator----------->
-  let timeImageSrc = weather[0].IsDayTime ? "icons/day.svg" : "icons/night.svg";
+  let timeImageSrc = iconNum.includes("d")
+    ? "icons/day.svg"
+    : "icons/night.svg";
 
   timeImage.setAttribute("src", timeImageSrc);
 
