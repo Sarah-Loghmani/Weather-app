@@ -7,12 +7,12 @@ class Forecast {
   }
   // get city & weather
   async getInfo(city) {
-    const query = `q=${city}&appid=${this.appid}`;
+    const query = `q=${city}&units=metric&appid=${this.appid}`;
     const response = await axios.get(this.url + query);
     const data = response.data;
     console.log(data);
     const weather = data.weather[0].description;
-    const temp = data.main.temp;
+    const temp = Math.round(data.main.temp);
     const iconNum = data.weather[0].icon;
     return { temp, city, weather, iconNum }; //object shorthand notation
   }
@@ -40,7 +40,9 @@ const updateUI = (data) => {
                 <div>${weather}</div>
                 <div>`.toUpperCase() +
     `<span>${temp}</span><span>&degC / </span>
-                    <span>${temp}</span><span>&degF</span>
+                    <span>${Math.round(
+                      (temp * 9) / 5 + 32
+                    )}</span><span>&degF</span>
                 </div>`;
 
   //update the day/night & icon images
